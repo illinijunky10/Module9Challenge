@@ -112,14 +112,54 @@ a{
     height: 32px;
 }
 
-/* .facebook {
-    width: 20px;
+@media all and (max-width:1400px) {
+    header .container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .hero {
+        height: 346px;
+    }
+    .imageArticle  {
+        padding: 40px 20px;
+    }
+}
+
+@media all and (max-width:744px) {
+    header ul {
+        padding: 0;
+        flex-direction: column;
+        align-items: center;
+    }
+    .hero {
+        height: 240px;
+    }
+    .hero h1 {
+        margin: auto;
+        text-align: center;
+        font-size: 23px;
+    }
+    .imageArticle {
+        flex-direction: column;
+        gap: 40px;
+    }
+    .imageArticle .content {
+        width: 100%;
+    }
+    .imageArticle img {
+        width: 100%;
+        height: 300px;
+    }
+}
+/* 
+.facebook {
+    width: 30px;
 }
 
 .xlogo {
-    width: 20px;
+    width: 30px;
 }
 
 .instagram {
-    width: 20px;
+    width: 30px;
 } */
