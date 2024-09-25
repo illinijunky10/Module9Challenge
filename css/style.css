@@ -115,7 +115,7 @@ header li a.selected {
     width: 100%;
 }
 
-.productItem img  {
+.productItem img{
     max-width: 100%;
 }
 
@@ -177,6 +177,9 @@ a{
     .imageArticle img {
         width: 100%;
         height: 300px;
+    }
+    .productItem {
+       max-width: 100%;
     }
 }
 /* 
